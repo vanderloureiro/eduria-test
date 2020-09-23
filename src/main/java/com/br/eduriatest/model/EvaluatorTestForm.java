@@ -6,6 +6,6 @@ import lombok.Data;
 public class EvaluatorTestForm {
     
     private Long idEnrollment;
-    private StudentLevel studentLevel;
+    private StudentBehavior studentBehavior;
 
 }
