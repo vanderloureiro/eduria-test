@@ -51,7 +51,7 @@ public class EvaluatorService {
 			return (indexFor % 2 == 0) ? this.CORRECT_ALTERNATIVE : this.WRONG_ALTERNATIVE;
 		}
 		
-		return (indexFor < 15) ? this.CORRECT_ALTERNATIVE : this.WRONG_ALTERNATIVE;
+		return (indexFor < 18) ? this.CORRECT_ALTERNATIVE : this.WRONG_ALTERNATIVE;
 
     }
     
